@@ -17,4 +17,4 @@ Data used contain routine attendance parameters colected up to four days after i
 
 ## SHAP_summaryplot
 
-Contains all codes used to generate summary of importance with feature effects, plots used SHAP library.
+Contains all codes used to generate summary of importance with feature effects, plots use SHAP library.
