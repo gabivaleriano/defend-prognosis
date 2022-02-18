@@ -8,7 +8,7 @@ This repository contains four .csv files and four Jupyter notebooks:
 ### bp_preprocessing and sírio_preprocessing
 
 Contains all codes used do preprocessing data from Hospitals Beneficência Portuguesa and Sírio Líbanes.
-Data available at: https://repositoriodatasharingfapesp.uspdigital.usp.br/
+Data available at https://repositoriodatasharingfapesp.uspdigital.usp.br/
 
 ### severity_prognosis 
 
