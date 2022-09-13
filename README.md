@@ -29,7 +29,7 @@ Contains all codes used to generate summary plots using SHAP library.
 ### hosp1 and hosp2
 
 Contains the data resulted from preprocessing described in the notebooks. 
-hosp1 refers to the Hospital Sirio Libanês data and hosp2 refers to the Hospital Beneficência Portuguesa data.
+hosp1 refers to Hospital Sirio Libanês and hosp2 refers to Hospital Beneficência Portuguesa.
 
 If you use these datasets in a scientific publication, we would appreciate citations to the following paper:
 
