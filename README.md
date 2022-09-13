@@ -1,7 +1,7 @@
 # defend-prognosis
 
 Generate and explain machine learning models to predict severity in COVID-19.
-This repository contains two .csv files and six Jupyter notebooks:  
+This repository contains two .csv files and six notebooks:  
 
 ## notebooks
 
