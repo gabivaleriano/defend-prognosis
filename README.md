@@ -1,37 +1,60 @@
 # defend-prognosis
 
-Generate and explain machine learning models to predict severity in COVID-19.
-This repository contains two .csv files and six notebooks:  
+This repository contains code and data to **generate and explain machine learning models** for predicting **COVID-19 severity** using real-world hospital data.
 
-## notebooks
+## Contents
 
-### bp_labels and hsl_labels
+- 🧪 **Two `.csv` files**: Preprocessed datasets from two major hospitals in Brazil.
+- 📓 **Six Jupyter notebooks** covering:
+  - Data labeling corrections
+  - Data preprocessing
+  - Predictive modeling
+  - SHAP explainability analysis
 
-In the original file tests, there are some cases when the same test have similar but divergent label. 
-This cases were resolved with the help of an expert. These notebooks contains all the codes used to correct this issue. 
+## Notebooks Overview
 
-### bp_preprocessing and sírio_preprocessing
+### 🔧 `bp_labels` and `hsl_labels`
 
-Contains all codes used do preprocessing data from Hospitals Beneficência Portuguesa and Sírio Líbanes.
-Data available at https://repositoriodatasharingfapesp.uspdigital.usp.br/
+These notebooks address inconsistencies in the original test label assignments.  
+In some cases, a test was linked to **divergent or ambiguous severity labels**. With the help of a **domain expert**, these conflicts were carefully resolved.
 
-### severity_prognosis 
+### 🧼 `bp_preprocessing` and `sírio_preprocessing`
 
-Contains all codes used to generate machine learning predictive results for five hospitals. 
-Data used contain routine attendance parameters collected up to four days after initial attendance.
+Contain all code used to preprocess raw COVID-19 data from:
 
-### SHAP_summaryplot
+- **Hospital Beneficência Portuguesa (BP)**
+- **Hospital Sírio-Libanês**
 
-Contains all codes used to generate summary plots using SHAP library. 
+📌 Original raw data is publicly available at:  
+https://repositoriodatasharingfapesp.uspdigital.usp.br/
 
-## .csv files
+### 📊 `severity_prognosis`
 
-### hosp1 and hosp2
+Includes code for training machine learning models to predict **severity outcomes** for patients from five hospitals.  
+The prediction is based on routine clinical parameters collected **up to four days after initial hospital attendance**.
 
-Contains the data resulted from preprocessing described in the notebooks. 
-hosp1 refers to Hospital Sirio Libanês and hosp2 refers to Hospital Beneficência Portuguesa.
+### 🧠 `SHAP_summaryplot`
 
-If you use these datasets in a scientific publication, we would appreciate citations to the following paper:
+Contains all code to generate SHAP summary plots for model explainability.
+
+## Datasets
+
+### 📁 `.csv` Files
+
+- `hosp1.csv`: Preprocessed data from **Hospital Sírio-Libanês**
+- `hosp2.csv`: Preprocessed data from **Hospital Beneficência Portuguesa**
+
+These files are the result of the preprocessing steps described in the notebooks above.
+
+## Looking for a More Refined Version?
+
+A **refined and better-documented version** of the datasets, along with other real-world healthcare datasets from Brazil, is available in the repository:  
+👉 [HealthDataBR](https://github.com/YOUR-USERNAME/HealthDataBR) *(replace with actual URL)*
+
+## Citation
+
+If you use these datasets or code in a scientific publication, we kindly ask you to cite the following paper:  
+📄 
 
 @inproceedings{Valeriano2022,
   doi = {10.1109/ccgrid54584.2022.00115},
